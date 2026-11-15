@@ -1,0 +1,100 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.07);
+}
+
+h1 {
+    text-align: center;
+    color: #173b69;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 750px;
+}
+
+th {
+    background: #173b69;
+    color: white;
+    padding: 15px 10px;
+}
+
+td {
+    padding: 13px 8px;
+    text-align: center;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+td:first-child {
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    width: 65px;
+    padding: 9px 5px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 2px solid #60a5fa;
+    border-color: #2563eb;
+}
+
+.total {
+    font-weight: bold;
+    color: #173b69;
+}
+
+.grade {
+    font-weight: bold;
+    color: #15803d;
+}
+
+.note {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #64748b;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+}
